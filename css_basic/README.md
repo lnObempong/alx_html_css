@@ -42,7 +42,7 @@ alx_html_css/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/alx_html_css.git
+   git clone https://github.com/lnObempong/alx_html_css.git
    
 🧠 Author
 Leonard Nketia Obempong

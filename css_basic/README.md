@@ -45,6 +45,7 @@ alx_html_css/
    git clone https://github.com/lnObempong/alx_html_css.git
    
 🧠 Author
+
 Leonard Nketia Obempong
 
 ALX Software Engineering Student

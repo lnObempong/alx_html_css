@@ -44,7 +44,12 @@ techcon-landing/
 
 ## 📸 Screenshots
 
-_(To be added after development is complete)_
+![image](https://github.com/user-attachments/assets/b6e54926-9a54-457c-b2ec-6815cb5aefc3)
+![image](https://github.com/user-attachments/assets/d86c16c6-4429-4264-beb8-d75b5c4a1e47)
+![image](https://github.com/user-attachments/assets/ffa27ad7-37ab-4d23-9b3f-b4eae4009375)
+![image](https://github.com/user-attachments/assets/be9e6e37-a1dd-4711-b606-d405bdc1c6b3)
+![image](https://github.com/user-attachments/assets/8aa5e408-ec92-4e23-8a5c-d819b81baee1)
+
 
 ## 👨‍💻 Author
 

@@ -1,0 +1,436 @@
+.banner {
+  background-image: url('./images/Object.png'); /* Your banner background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+  width: 100%;
+  color: white;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and text */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white; /* or whatever color fits */
+}
+
+.logo img {
+  height: 40px; /* adjust size as needed */
+  width: auto;
+  display: block;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.banner-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers banner-text vertically */
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  z-index: 2; /* make sure it’s above background */
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.banner-tags span {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.banner button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff4081;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Learn from the pros inside banner */
+.pros {
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+}
+
+.pros h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pros-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pro-card {
+ /* background-color: rgba(0, 0, 0, 0.5); /* translucent dark background for visibility */
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+}
+
+.pro-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pro-card h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.pro-card p {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+/* quote section */ 
+.quote-section {
+  background-color: hwb(315 61% 17%); /* or whatever background */
+  padding: 60px 20px;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.quote-container img {
+  width: 100px;
+  max-width: 100%;
+  border-radius: 10px; /* optional: for style */
+}
+
+.quote-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+.quote-text blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: hsl(0, 100%, 100%);
+  margin-bottom: 10px;
+}
+
+
+.quote-text .author {
+  font-weight: bold;
+  color: hwb(315 61% 17%); /* matches smile purple theme */
+}
+
+.quote-text .title {
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.videos-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+}
+.videos-section {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #071629; /* dark navy text */
+}
+
+.section-title .highlight {
+  color: #C271FF; /* vibrant purple highlight */
+}
+
+
+.videos-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-card {
+  text-align: left;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.thumbnail {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  display: block;
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(194, 113, 255, 0.8);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #071629;
+}
+
+.video-card p {
+  color: #6c6c6c;
+  font-size: 0.875rem;
+  margin-bottom: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author span {
+  color: #C271FF;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars i {
+  color: #C271FF;
+  font-size: 0.8rem;
+  margin-right: 3px;
+}
+
+.stars i.gray {
+  color: #d8d8d8;
+}
+
+.duration {
+  color: #b1b1b1;
+  font-size: 0.8rem;
+}
+
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 100px 20px 80px; /* Increased top padding from 80px to 100px */
+  margin-top: 40px; /* Optional: adds space above the entire section */
+}
+.highlight {
+  color: #C271FF; /* Purple color used in Figma design */
+}
+
+
+.membership-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+   font-size: 2.5rem; /* Adjust size as needed */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.membership-benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.benefit {
+  flex: 1 1 200px;
+  max-width: 220px;
+}
+
+.benefit img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.benefit h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.benefit p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.membership-btn {
+  background-color: #C271FF;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership-btn:hover {
+  background-color: #a953d4;
+}
+
+.faq-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  color: #071629;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.faq-column {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+footer {
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+footer section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 120px;
+  height: auto;
+}
+
+footer div i {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+footer div i:hover {
+  color: #bb6bd9;
+}
+
+footer p {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+}

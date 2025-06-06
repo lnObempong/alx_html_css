@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CSS Basic Project
 
 This project is part of the ALX Front-End curriculum and focuses on the foundational concepts of CSS (Cascading Style Sheets). The goal is to apply styling rules, structure layout using Flexbox, and implement responsive design for a simple website.
@@ -110,4 +110,4 @@ techcon-landing/
 ALX Front-End Student  
 [@alx_africa #ALX_FE](https://twitter.com/alx_africa)
 
->>>>>>> 79e55895ed49cfe14452ca6fd0c6722a9393a973
+
